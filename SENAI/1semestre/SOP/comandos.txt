@@ -1,0 +1,42 @@
+cd - caminha entre diretórios 
+dir - lista diretórios
+mkdir - cria diretórios 
+rmdir -  remove pastas
+rmdir /s - remove pastas e subpastas
+type nul - cria arquivos vazios 
+ping - fazer recebimentos de dados para servidores
+color - muda a cor das letras e do fundo da programação
+
+
+
+
+
+
+perguntas=Hub
+1- ele serve para garantir a conexão entre dispositivos, permitindo o compartilhamento de dados entre eles
+2- controlar todos os aparelhos em um so dispositivo
+3- o USB é com cabo e a inteligente é sem cabo
+
+Perguntas=ponto de acesso
+1- é um dispositivo de rede que cria uma rede local sem fio (como uma WLAN), geralmente em um escritório ou grande edifício, permitindo que dispositivos Wi-Fi se conectem a uma rede cabeada
+2- o roteador é o "cérebro" que cria e gerencia a rede, enquanto o ponto de acesso é apenas uma extensão para distribuir sinal Wi-Fi em locais onde ele não chega
+3- ela converte a internet de cabo para um sinal de wifi para dispositivos sem fio.
+
+perguntas=roteador
+1-é o melhor meio para ter acesso a internet e wifi, e permite que vários dispositivos utilizam o mesmo sinal de internet
+
+2- é um recurso que permite priorizar determinados tipos de trafego de dados de rede
+
+3- ajuda armazenando os dados e garantindo a segurança como um bloqueador
+
+perguntas=switch
+1-kalpana, no final dos anos 80 e no incio dos anos 90
+
+2-serve para conectar diversos dispositivos, computadores, impressoras, servidores, em uma mesma rede local
+
+3-EPS-700
+
+perguntas = firewall
+1-serve como uma barreira de segurança entre uma rede confiável (como o seu computador)e redes não confiáveis (como a internet)
+2-ele foi inventado no final dos anos 80 e se popularizou no inicio dos anos 90
+3-Fortinet

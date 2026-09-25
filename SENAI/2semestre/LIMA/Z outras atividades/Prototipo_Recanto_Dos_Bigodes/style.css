@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("minha-imagem.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+
+    background-image: url("gliter.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+header h1 {
+    margin-bottom: 25px;
+    color:#1ac4d0
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #1ac4d0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6d0476;
+}
+
+section {
+    padding: 52px;
+
+    margin: 20px auto;
+
+    max-width: 900px;
+
+    background: #c4ddf1;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #35127a;
+}
+
+.sobre-mim {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 4px solid #11b5d5;
+    box-shadow: 0 0 15px #11b5d5;
+}
+
+.Gata-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 4px solid #11b5d5;
+    box-shadow: 0 0 15px #11b5d5;
+    margin-left: 200px
+}
+
+.cards {
+    display: flex;
+
+    gap: 16px;
+}
+
+.card {
+    background: #2098e2;
+
+    color: #fff;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    width: 100%;
+
+    text-align: center;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card i {
+    font-size: 30px;
+
+    color: #fff;
+
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card button {
+    margin-top: 15px;
+
+    background: #35127a;
+
+    color: white;
+
+    border: none;
+
+    padding: 9px 15px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #11b5d5;
+
+    transform: scale(1.05);
+}
+
+.hobbies {
+    display: flex;
+
+    gap: 16px;
+}
+
+.hobby {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background: #5521c5;
+
+    color: white;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.1);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.4s ease;
+}
+
+.hobby:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.hobby i {
+    font-size: 30px;
+
+    color: #00d9ff;
+
+    margin-bottom: 10px;
+}
+
+.hobby p {
+    color: #fff;
+
+    margin-top: 8px;
+
+    text-align: center;
+}
+
+form {
+    display: grid;
+
+    gap: 12px;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    font-family: Arial, sans-serif;
+
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #11b5d5;
+
+    box-shadow:
+        0 0 5px rgba(17, 181, 213, 0.5);
+}
+
+textarea {
+    height: 120px;
+
+    resize: vertical;
+}
+
+button {
+    background: #333;
+
+    color: #fff;
+
+    border: none;
+
+    padding: 10px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 183, 0, 1) 16%, rgba(234, 255, 0, 1) 28%, rgba(95, 249, 34, 1) 44%, rgba(0, 212, 255, 1) 58%, rgba(0, 60, 255, 1) 71%, rgba(153, 0, 255, 1) 80%, rgba(255, 0, 242, 1) 89%, rgba(255, 0, 43, 1) 100%);
+    ;
+
+    transform: scale(1.02);
+}
+
+.redes {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.rede {
+    width: 150px;
+
+    padding: 20px;
+
+    background: #35127a;
+
+    color: white;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.rede i {
+    display: block;
+
+    font-size: 32px;
+
+    color: #11b5d5;
+
+    margin-bottom: 10px;
+}
+
+.rede:hover {
+    background: #11b5d5;
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.rede:hover i {
+    color: white;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.gata {
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.gata h3 {
+    font-size: 24px;
+    margin: -40px;
+    margin-left: 20px;
+}
+.gata h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.Gata-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.nome-gata{
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+footer {
+    background: #0e92a9;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .sobre-mim {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .hobbies {
+        flex-direction: column;
+    }
+
+    .redes {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .rede {
+        width: 200px;
+    }
+
+    nav ul li {
+        display: block;
+
+        margin: 10px;
+    }
+
+   
+}
