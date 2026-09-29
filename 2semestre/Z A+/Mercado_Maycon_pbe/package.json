@@ -1,0 +1,17 @@
+{
+  "name": "mercado_maycon_pbe",
+  "version": "1.0.0",
+  "description": "sei la",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node servidor/server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Breno-Frazao",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
