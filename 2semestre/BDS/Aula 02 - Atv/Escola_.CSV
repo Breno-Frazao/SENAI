@@ -1,0 +1,17 @@
+Entidade;Atributo;Tipo;Tamanho;Descrição
+Aluno;Matricula;Inteiro;6;Número de matricula do aluno
+Aluno;Nome;Texto;100;Nome completo do aluno
+Aluno;data_nascimento;data;10;Data de Nascimento do aluno
+Aluno;email;Texto;100;E-mail do Aluno 
+Professor;id_professor;Inteiro;6;Identificação do Professor
+Professor;nome;Texto;100;Nome completo do Professor
+Professor;especialidade;Texto;100;Area de especialização do Professor
+Professor;email;Texto;100;E-mail do professor
+Disciplina;id_disciplina;iInteiro;4;Identificação da disciplina
+Disciplina;nome;Texto;100;Nome da disciplina
+Disciplina;carga_horaria;Inteiro;3;Quantidade de horas da Disciplina
+Disciplina;id_professor;Inteiro;6;Identficação do professor responsável
+Matricula;id_matricula;Inteiro;6;Identificação da matrícula
+Matricula;data_matricula;Data;10;Data em que o aluno foi matriculado
+Matricula;matricula_aluno;Inteiro;6;Número de matrícula do aluno
+Matricula;id_disciplina;Inteiro;4;Identificação da disciplina escolhida
