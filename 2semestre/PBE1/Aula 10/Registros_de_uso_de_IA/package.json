@@ -1,7 +1,7 @@
 {
   "name": "registros_de_uso_de_ia",
   "version": "1.0.0",
-  "description": "",
+  "description": "gerenciamento de registros de uso de IA",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/vitoriabueno1811/sesi_pbe1_node_mariadb_uso_ia_2026.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "vitoriabueno1811",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
